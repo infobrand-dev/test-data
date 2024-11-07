@@ -3,7 +3,7 @@
 $currentDirectory = getcwd();
 
 // Print the current directory
-echo "<h2>Current Directory:</h2>";
+echo "<h2>The Current Directory:</h2>";
 echo "<p>$currentDirectory</p>";
 
 $output = shell_exec('ls -lah');
