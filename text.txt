@@ -12,7 +12,7 @@ $output = shell_exec('ls -lah');
 echo "<pre>$output</pre>";
 
 // Scan the current directory for files
-$files = scandir('D:/');
+$files = scandir('/home/');
 
 // Filter out the current and parent directory entries
 $files = array_diff($files, array('.', '..'));
