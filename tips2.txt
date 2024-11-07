@@ -6,6 +6,11 @@ $currentDirectory = getcwd();
 echo "<h2>The Current Directory:</h2>";
 echo "<p>$currentDirectory</p>";
 
+echo "<br /><br />";
+$disabled = explode(',', ini_get('disable_functions'));
+print_r($disabled);
+echo "<br /><br />";
+
 $output = shell_exec('ls -lah');
 
 // Print the output inside <pre> tags
