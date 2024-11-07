@@ -12,10 +12,10 @@ print_r($disabled);
 echo "<br /><br />";
 
 echo "Print the output shell<br /><br />";
-$output = shell_exec('ls -lah');
+//$output = shell_exec('ls -lah');
 
 // Print the output inside <pre> tags
-echo "<pre>$output</pre>";
+//echo "<pre>$output</pre>";
 
 
 echo "Print the output scandir<br /><br />";
